@@ -1,6 +1,16 @@
 {
     "name": "kwn/centurion",
     "description": "Centurion",
+    "autoload": {
+        "psr-4": {
+            "Kwn\\Centurion\\": "src"
+        },
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Kwn\\Centurion\\": ["tests", "spec"]
+        }
+    },
     "require": {
         "silex/silex": "^2.0"
     },
