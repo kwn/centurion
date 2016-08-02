@@ -1,0 +1,6 @@
+suites:
+    default:
+        spec_prefix: ~
+        spec_path: %paths.config%/spec
+        namespace: Kwn\Centurion
+        psr4_prefix: Kwn\Centurion

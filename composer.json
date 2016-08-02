@@ -4,11 +4,11 @@
     "autoload": {
         "psr-4": {
             "Kwn\\Centurion\\": "src"
-        },
+        }
     },
     "autoload-dev": {
         "psr-4": {
-            "Kwn\\Centurion\\": ["tests", "spec"]
+            "Kwn\\Centurion\\": ["src-dev", "tests", "spec"]
         }
     },
     "require": {
